@@ -1,0 +1,14 @@
+@media only screen and (max-width:768px) {
+    .navbar .navbar__nav a{
+        display: none;
+    }
+    .banner .item{
+        width: 100%;
+    }
+    .banner__content h1{
+        font-size: 1rem;
+    }
+    .about__content, .admission__content, .whyus__content, .contactus__content, .testimonial__content,  .leg__group, form{
+        grid-template-columns: 1fr;
+    }
+}

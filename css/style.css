@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+body {
+    line-height: 1.4;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+
+}
+.header{
+    width: 100%;
+    height: 100%;
+    background-color: #E8BD10;
+    position: relative;
+}
+.navbar{
+    width: 90%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.navbar a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.navbar .navbar__logo a{
+    font-size: 2.7rem;
+    font-weight: 900;
+
+}
+.banner{
+    width: 90%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+ .banner .item h1{
+    width: 90%;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);  
+}
+
+button{
+    padding: 7px 15px ;
+    margin-top: 10px;
+    font-size: 1rem;
+    border-radius: 20px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s linear;
+}
+button:hover{
+    background-color: #635418 ;
+    color: rgb(255, 255, 255);
+
+}
+.header::after{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 40vh;
+    background-image: url(/hero-bg.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+
+.about{
+    width: 100%;
+    height: 35vh;
+    position: relative;
+}
+.about__content{
+    width: 90%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 28rem;
+    gap: 5rem;
+    text-align: right;
+   
+}
+.about__content .item h2{
+    font-size: 3rem;
+    margin-bottom: 12px;
+}
+.about__content .item p{
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+.about__content .item button{
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
+.admission{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+.admission__content{
+    width: 90%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 28rem;
+    gap: 5rem;
+    text-align: left;
+   
+}
+.admission__content .item h2{
+    font-size: 3rem;
+    margin-bottom: 12px;
+}
+.admission__content .item p{
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+.admission__content .item button{
+    font-size: 1.4rem;
+}
+
+
+
+
+
+.whyus{
+    width: 100%;
+    height: 35vh;
+    position: relative;
+}
+.whyus__content{
+    width: 90%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 28rem;
+    gap: 5rem;
+    text-align: right;
+}
+.whyus__content .item h2{
+    font-size: 3rem;
+    margin-bottom: 12px;
+}
+.whyus__content .item p{
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+.whyus__content .item button{
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
+.contactus{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+   
+}
+.contactus__content{
+    width: 90%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 28rem;
+    gap: 5rem;
+    text-align: left;
+}
+.contactus__content .item h2{
+    font-size: 3rem;
+    margin-bottom: 12px;
+}
+.contactus__content .item p{
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+.contactus__content .item button{
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
+
+.testimonial{
+    width: 100%;
+    height: 35vh;
+    position: relative;
+}
+.testimonial__content{
+    width: 90%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin: 0 auto;
+    gap: 1rem;
+    text-align: right;
+   
+}
+.testimonial__content .item h2{
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+    width: 200%;
+}
+.testimonial__content .item p{
+    font-size: 1.3rem;
+    font-weight: 550;
+    width: 240%;
+   
+}
+.testimonial__content .item button{
+    font-size: 1.4rem;
+}
+.testimonial__content .item{
+    width: 50%;
+    height: 45%;
+    text-align: left;
+   
+}
+.testimonial .container .title{
+    margin-top: 23rem;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+.contact{
+    width:  100%;
+    height: 100vh;
+    background-image: url(https://magical-hamster-6bb944.netlify.app/img/students.jpg);
+    background-size: 50% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 20rem;
+}
+.contact__group{
+    width: 50%;
+    height: 100vh;
+    background-position: top;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 6rem;
+}
+input{
+    width: 100%;
+    height: 8vh;
+    border: 0;
+    bottom: 0;
+    outline: 0;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+ form button{
+    width: 100%;
+    height: 8vh;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.contact__group h1{
+    width: 100%;
+    font-size: 30px;
+    padding-top: 11rem;
+    color: rgb(58, 58, 58);
+    padding-left: 6rem;
+}
+
+
+
+
+
+.leg{
+    width: 100%;
+    background-color: #1d1d1d;
+}
+
+.leg .container .title h1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+padding-top: 4rem;
+font-size: 2.7rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .leg__group{
+    width: 100%;
+    height: 48vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    margin: 0 auto;
+    gap: 4rem;
+    color: rgb(255, 255, 255);
+    
+}
+.leg .container .leg__group h2{
+    font-size: 1.9rem;
+}
+.leg .container .leg__group p{
+    font-size: 1.2rem;
+}
+.leg .container .leg__group input{
+    width: 90%;
+    height: 4.6vh;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+.leg .container .leg__group button{
+    width: 70%;
+    height: 4.5vh;background-color: #E8BD10;
+    border-radius: 10px;
+}
+.icon{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+.lower{
+    width: 100%;
+    height: 9vh;
+    background-color: #E8BD10;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1.3rem;
+    font-size: 0.9rem;
+}
+
+
