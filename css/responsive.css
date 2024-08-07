@@ -2,13 +2,29 @@
     .navbar .navbar__nav a{
         display: none;
     }
-    .banner .item{
+    .banner {
         width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
     }
     .banner__content h1{
         font-size: 1rem;
     }
     .about__content, .admission__content, .whyus__content, .contactus__content, .testimonial__content,  .leg__group, form{
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 4rem;
+    }
+    .contactus__content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+        margin-bottom: 2rem;
+    }
+    .admission__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
     }
 }

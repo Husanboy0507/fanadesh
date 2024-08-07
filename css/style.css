@@ -340,7 +340,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
  .leg__group{
     width: 100%;
-    height: 48vh;
+    height: 42vh;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     align-items: center;
@@ -367,9 +367,17 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
 }
 .icon{
-    font-size: 2rem;
+    font-size: 2.9rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
     color: rgb(255, 255, 255);
+    padding-bottom: 9rem;
+    margin: 0 auto;
+    border-top: 2px solid #f8f8f8;
+    padding: 4rem 0;
+    
 }
 
 
