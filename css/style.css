@@ -26,11 +26,10 @@ img {
     width: 100%;
     height: 100%;
     background-color: #E8BD10;
-    position: relative;
 }
 .navbar{
     width: 90%;
-    height: 8vh;
+padding: 4rem, 0;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -51,7 +50,7 @@ img {
 }
 .banner{
     width: 90%;
-    height: 90vh;
+    padding: 4rem, 0;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -63,7 +62,7 @@ img{
     display: block;
 }
  .banner .item h1{
-    width: 90%;
+
     font-size: 3.5rem;
     color: rgb(255, 255, 255);  
 }
@@ -82,13 +81,8 @@ button:hover{
     color: rgb(255, 255, 255);
 
 }
-.header::after{
-    position: absolute;
-    content: " ";
-    width: 100%;
-    height: 40vh;
-    background-image: url(/hero-bg.png);
-    background-size: 100% 100%;
+.hero{
+    height: 50vh;
 }
 
 
@@ -97,18 +91,14 @@ button:hover{
 
 .about{
     width: 100%;
-    height: 35vh;
-    position: relative;
+    padding: 4rem, 0;
 }
 .about__content{
-    width: 90%;
-    height: 150vh;
+    padding: 4rem, 0;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    margin: 0 auto;
-    /* margin-top: 28rem; */
-    gap: 5rem;
+    gap: 3rem;
     text-align: right;
    
 }
@@ -131,18 +121,14 @@ button:hover{
 
 .admission{
     width: 100%;
-    height: 50vh;
-    position: relative;
+    padding: 4rem, 0;
 }
 .admission__content{
-    width: 90%;
-    height: 250vh;
+    padding: 4rem, 0;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    margin: 0 auto;
-    /* margin-top: 28rem; */
-    gap: 5rem;
+    gap: 3rem;
     text-align: left;
    
 }
@@ -164,18 +150,14 @@ button:hover{
 
 .whyus{
     width: 100%;
-    height: 130vh;
-    position: relative;
+    padding: 4rem, 0;
 }
 .whyus__content{
-    width: 90%;
-    height: 330vh;
+    padding: 4rem, 0;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    margin: 0 auto;
-    /* margin-top: 28rem; */
-    gap: 5rem;
+    gap: 3rem;
     text-align: right;
 }
 .whyus__content .item h2{
@@ -195,33 +177,31 @@ button:hover{
 
 
 
-.contactus{
+.contact{
     width: 100%;
-    height: 120vh;
-    position: relative;
+    padding: 4rem, 0;
    
 }
-.contactus__content{
-    width: 90%;
-    height:250vh;
+.contact__content{
+    padding: 4rem, 0;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    margin: 0 auto;
-    /* margin-top: 28rem; */
-    gap: 5rem;
+    gap: 3rem;
     text-align: left;
 }
-.contactus__content .item h2{
+.contact__content .item h2{
     font-size: 3rem;
-    margin-bottom: 12px;
+    padding-top: 11rem;
 }
-.contactus__content .item p{
+.contact__content .item p{
     font-size: 1.3rem;
     font-weight: 550;
 }
-.contactus__content .item button{
+.contact__content button{
     font-size: 1.4rem;
+    height: 6vh;
+    width: 100%;
 }
 
 
@@ -232,42 +212,34 @@ button:hover{
 
 .testimonial{
     width: 100%;
-    height: 35vh;
-    position: relative;
+    padding: 4rem, 0;
 }
 .testimonial__content{
-    width: 90%;
-    height: 90vh;
+   
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns:  20% 80%;
     align-items: center;
-    margin: 0 auto;
-    gap: 1rem;
-    text-align: right;
+    gap: 3rem;
+    text-align: right;  
    
 }
 .testimonial__content .item h2{
     font-size: 2.5rem;
-  
-    width: 200%;
 }
 .testimonial__content .item p{
     font-size: 1.3rem;
     font-weight: 550;
-    width: 240%;
    
 }
 .testimonial__content .item button{
     font-size: 1.4rem;
 }
 .testimonial__content .item{
-    width: 50%;
-    height: 45%;
     text-align: left;
    
 }
 .testimonial .container .title{
-    margin-top: 23rem;
+    padding: 4rem, 0;
     text-align: center;
     color: black;
     font-size: 2rem;
@@ -278,28 +250,14 @@ button:hover{
 
 
 
-.contact{
-    width:  100%;
-    height: 100vh;
-    background-image: url(https://magical-hamster-6bb944.netlify.app/img/students.jpg);
-    background-size: 50% 100%;
-    background-position: right;
-    background-repeat: no-repeat;
-    margin-top: 20rem;
+
+
+.contact__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
-.contact__group{
-    width: 50%;
-    height: 100vh;
-    background-position: top;
-    
-}
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding-left: 6rem;
-}
-input{
+
+.contact__content input{
     width: 100%;
     height: 8vh;
     border: 0;
@@ -308,41 +266,15 @@ input{
     font-size: 20px;
     border-bottom: 1px solid black;
 }
- form button{
-    width: 100%;
-    height: 8vh;
-    border-radius: 25px;
-    font-size: 20px;
-    position: relative;
-    z-index: 1;
-
-}
-.contact__group button::after{
-    position: absolute;
-    content: " ";
-    width: 0%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    z-index: -1;
-    transition: all 0.5s linear;
-    background: linear-gradient(to left, red, black, yellow);
-}
-.contact__group button:hover::after{
-    width: 100%;
-    background: linear-gradient(to right, red, black, green);
-    border-radius: 20px;
-}
-    
-
 
 .contact__group h1{
     width: 100%;
     font-size: 30px;
     padding-top: 11rem;
     color: rgb(58, 58, 58);
-    padding-left: 6rem;
 }
+
+
 
 
 

@@ -6,7 +6,7 @@
         display: grid;
         grid-template-columns: 100%;
         gap: 3rem;
-        height: 90vh;
+
     }
     .banner__content h1{
         font-size: 1rem;
@@ -15,37 +15,37 @@
     }
     .about__content{
 
-        height: 150vh;
+  
         display: grid;
         grid-template-columns: 1fr;
         
     }
     .admission__content{
-    height: 250vh;
+
         display: grid;
         grid-template-columns: 1fr;
         
     }
     .whyus__content{
-        height: 330vh;
+
         display: grid;
         grid-template-columns: 1fr;
     } 
     .contactus__content{
-        height: 250vh;
+
         display: grid;
         grid-template-columns: 1fr;
 
     }
     .testimonial__content{
-        height: 90vh;
+
         display: grid;
         grid-template-columns: 1fr;
     }
      .leg__group{
-        height: 100vh;
+
         display: grid;
         grid-template-columns: 1fr;
     }
 
-}9999999
+}
