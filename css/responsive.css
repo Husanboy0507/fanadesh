@@ -14,38 +14,40 @@
         grid-template-columns: 1fr;
     }
     .about__content{
-
-  
+        gap: 3rem;
         display: grid;
         grid-template-columns: 1fr;
         
     }
     .admission__content{
-
+        gap: 3rem;
         display: grid;
         grid-template-columns: 1fr;
         
     }
     .whyus__content{
-
+        gap: 3rem;
         display: grid;
         grid-template-columns: 1fr;
     } 
     .contactus__content{
-
+        gap: 3rem;
         display: grid;
         grid-template-columns: 1fr;
 
     }
     .testimonial__content{
-
+        gap: 3rem;
         display: grid;
         grid-template-columns: 1fr;
     }
-     .leg__group{
-
+     .leg__content{
+        gap: 3rem;
+        margin-bottom: 2rem;
+       
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr);
     }
+  
 
 }
