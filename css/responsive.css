@@ -48,6 +48,11 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
-  
+    .contact__content{
+        gap: 3rem;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
 
 }
